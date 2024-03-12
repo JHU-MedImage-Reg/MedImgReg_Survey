@@ -182,37 +182,37 @@ class CorrRatio(torch.nn.Module):
     def gaussian_kernel(self, diff, sigma):
         return torch.exp(-0.5 * (diff ** 2) / (sigma ** 2))
 
-    def forward(self, fixed_image, moving_image):
-        # Assuming fixed_image and moving_image are normalized [0, 1]
+    def forward(self, y_true, y_pred):
+        # Assuming y_true and y_pred are normalized [0, 1]
 
-        B, C, H, W, D = fixed_image.shape
-        fixed_image_flat = fixed_image.reshape(B, C, -1)  # Flatten spatial dimensions
-        moving_image_flat = moving_image.reshape(B, C, -1)
+        B, C, H, W, D = y_true.shape
+        y_true_flat = y_true.reshape(B, C, -1)  # Flatten spatial dimensions
+        y_pred_flat = y_pred.reshape(B, C, -1)
 
         bins = self.vol_bin_centers
 
         # Calculate distances from each pixel to each bin
-        fixed_image_expanded = fixed_image_flat.unsqueeze(2)  # [B, C, 1, H*W*D]
-        diff = fixed_image_expanded - bins  # Broadcasted subtraction
+        y_true_expanded = y_true_flat.unsqueeze(2)  # [B, C, 1, H*W*D]
+        diff = y_true_expanded - bins  # Broadcasted subtraction
 
         # Apply Parzen window approximation
         weights = self.gaussian_kernel(diff, sigma=0.01)
 
-        # Compute weighted mean intensity in moving_image for each bin
-        moving_image_expanded = moving_image_flat.unsqueeze(2)  # Shape: [B, C, 1, H*W*D]
-        weighted_sums = torch.sum(weights * moving_image_expanded, dim=3)
+        # Compute weighted mean intensity in y_pred for each bin
+        y_pred_expanded =y_pred_flat.unsqueeze(2)  # Shape: [B, C, 1, H*W*D]
+        weighted_sums = torch.sum(weights * y_pred_expanded, dim=3)
         bin_counts = torch.sum(weights, dim=3)
         mean_intensities = weighted_sums / (bin_counts + 1e-8)  # Add epsilon to avoid division by zero
 
-        # Compute total mean of moving_image
-        total_mean = torch.mean(moving_image_flat, dim=2, keepdim=True)
+        # Compute total mean of y_pred
+        total_mean = torch.mean(y_prede_flat, dim=2, keepdim=True)
 
         # Between-group variance
         between_group_variance = torch.sum(bin_counts * (mean_intensities - total_mean) ** 2, dim=2) / (
                     torch.sum(bin_counts, dim=2) + 1e-8)
 
         # Total variance
-        total_variance = torch.var(moving_image_flat, dim=2)
+        total_variance = torch.var(y_pred_flat, dim=2)
 
         # Correlation ratio
         eta_square = between_group_variance / (total_variance + 1e-8)
