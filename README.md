@@ -22,4 +22,14 @@ This official repository contains Python implementations of various image simila
 3. Bending energy
 
 
+## Citations:
+These Python implementations have been prepared for inclusion in the following article:
+
+    @article{chen2023survey,
+    title={A survey on deep learning in medical image registration: New technologies, uncertainty, evaluation metrics, and beyond},
+    author={Chen, Junyu and Liu, Yihao and Wei, Shuwen and Bian, Zhangxing and Subramanian, Shalini and Carass, Aaron and Prince, Jerry L and Du, Yong},
+    journal={arXiv preprint arXiv:2307.15615},
+    year={2023}
+    }
+
 
