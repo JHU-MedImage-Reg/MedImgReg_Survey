@@ -205,7 +205,7 @@ class CorrRatio(torch.nn.Module):
         mean_intensities = weighted_sums / (bin_counts + 1e-8)  # Add epsilon to avoid division by zero
 
         # Compute total mean of y_pred
-        total_mean = torch.mean(y_prede_flat, dim=2, keepdim=True)
+        total_mean = torch.mean(y_pred_flat, dim=2, keepdim=True)
 
         # Between-group variance
         between_group_variance = torch.sum(bin_counts * (mean_intensities - total_mean) ** 2, dim=2) / (
