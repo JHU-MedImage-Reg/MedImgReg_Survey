@@ -55,9 +55,9 @@ These Python implementations have been prepared for inclusion in the following a
 * Total-variation regularization
 * Bending energy
 * ICON
-    * "ICON: Learning Regular Maps Through Inverse Consistency", ICCV, 2021 (Greer *et al.*). [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Greer_ICON_Learning_Regular_Maps_Through_Inverse_Consistency_ICCV_2021_paper.pdf)[GitHub](https://github.com/uncbiag/ICON)
+    * "ICON: Learning Regular Maps Through Inverse Consistency", ICCV, 2021 (Greer *et al.*). [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Greer_ICON_Learning_Regular_Maps_Through_Inverse_Consistency_ICCV_2021_paper.pdf)][[GitHub](https://github.com/uncbiag/ICON)]
 * GradICON
-    * "GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency", CVPR, 2022 (Tian *et al.*). [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tian_GradICON_Approximate_Diffeomorphisms_via_Gradient_Inverse_Consistency_CVPR_2023_paper.pdf)[GitHub](https://github.com/uncbiag/ICON)
+    * "GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency", CVPR, 2022 (Tian *et al.*). [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tian_GradICON_Approximate_Diffeomorphisms_via_Gradient_Inverse_Consistency_CVPR_2023_paper.pdf)][[GitHub](https://github.com/uncbiag/ICON)]
 
 ## Network Architectures
 
