@@ -156,69 +156,6 @@ class MIND_loss(torch.nn.Module):
     def forward(self, y_pred, y_true):
         return torch.mean((self.MINDSSC(y_pred) - self.MINDSSC(y_true)) ** 2)
 
-class CorrRatio(torch.nn.Module):
-    """
-    Correlation Ratio based on Parzen window
-    Implemented by Junyu Chen, jchen245@jhmi.edu
-    TODO: Under testing
-
-    The Correlation Ratio as a New Similarity Measure for Multimodal Image Registration
-    by Roche et al. 1998
-    https://link.springer.com/chapter/10.1007/BFb0056301
-    """
-
-    def __init__(self, bins=32, sigma_ratio=1):
-        super(CorrRatio, self).__init__()
-        self.num_bins = bins
-        bin_centers = np.linspace(0, 1, num=bins)
-        self.vol_bin_centers = Variable(torch.linspace(0, 1, bins), requires_grad=False).cuda().view(1, 1, bins, 1)
-
-        """Sigma for Gaussian approx."""
-        sigma = np.mean(np.diff(bin_centers)) * sigma_ratio
-        print(sigma)
-
-        self.preterm = 1 / (2 * sigma ** 2)
-
-    def gaussian_kernel(self, diff, sigma):
-        return torch.exp(-0.5 * (diff ** 2) / (sigma ** 2))
-
-    def forward(self, y_true, y_pred):
-        # Assuming y_true and y_pred are normalized [0, 1]
-
-        B, C, H, W, D = y_true.shape
-        y_true_flat = y_true.reshape(B, C, -1)  # Flatten spatial dimensions
-        y_pred_flat = y_pred.reshape(B, C, -1)
-
-        bins = self.vol_bin_centers
-
-        # Calculate distances from each pixel to each bin
-        y_true_expanded = y_true_flat.unsqueeze(2)  # [B, C, 1, H*W*D]
-        diff = y_true_expanded - bins  # Broadcasted subtraction
-
-        # Apply Parzen window approximation
-        weights = self.gaussian_kernel(diff, sigma=0.01)
-
-        # Compute weighted mean intensity in y_pred for each bin
-        y_pred_expanded =y_pred_flat.unsqueeze(2)  # Shape: [B, C, 1, H*W*D]
-        weighted_sums = torch.sum(weights * y_pred_expanded, dim=3)
-        bin_counts = torch.sum(weights, dim=3)
-        mean_intensities = weighted_sums / (bin_counts + 1e-8)  # Add epsilon to avoid division by zero
-
-        # Compute total mean of y_pred
-        total_mean = torch.mean(y_pred_flat, dim=2, keepdim=True)
-
-        # Between-group variance
-        between_group_variance = torch.sum(bin_counts * (mean_intensities - total_mean) ** 2, dim=2) / (
-                    torch.sum(bin_counts, dim=2) + 1e-8)
-
-        # Total variance
-        total_variance = torch.var(y_pred_flat, dim=2)
-
-        # Correlation ratio
-        eta_square = between_group_variance / (total_variance + 1e-8)
-
-        return 1-eta_square.mean()
-
 class MutualInformation(torch.nn.Module):
     """
     Mutual Information
