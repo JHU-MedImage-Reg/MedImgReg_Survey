@@ -4,7 +4,22 @@
 This official repository contains Python implementations of various image similarity measures, deformation regularization techniques, and evaluation methodologies for medical image registration.
 
 
-## Image similarity measure:
+## Overview
+- [Citation](#citation)
+- [Image similarity measures](#image-similarity-measures)
+- [Deformation regularization](#deformation-regularization)
+
+## Citation
+These Python implementations have been prepared for inclusion in the following article:
+
+    @article{chen2023survey,
+    title={A survey on deep learning in medical image registration: New technologies, uncertainty, evaluation metrics, and beyond},
+    author={Chen, Junyu and Liu, Yihao and Wei, Shuwen and Bian, Zhangxing and Subramanian, Shalini and Carass, Aaron and Prince, Jerry L and Du, Yong},
+    journal={arXiv preprint arXiv:2307.15615},
+    year={2023}
+    }
+
+## Image similarity measures
 1. Mean Squared Error (MSE)
 2. Mean Absolute Error (MAE)
 3. Pearson's correlation (PCC) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L340)
@@ -16,20 +31,8 @@ This official repository contains Python implementations of various image simila
 9. Correlation Ratio (CR) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L159)
 10. Structural Similarity Index (SSIM) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L455)
 
-## Deformation regularization:
+## Deformation regularization
 1. Diffusion regularization
 2. Total-variation regularization
 3. Bending energy
-
-
-## Citations:
-These Python implementations have been prepared for inclusion in the following article:
-
-    @article{chen2023survey,
-    title={A survey on deep learning in medical image registration: New technologies, uncertainty, evaluation metrics, and beyond},
-    author={Chen, Junyu and Liu, Yihao and Wei, Shuwen and Bian, Zhangxing and Subramanian, Shalini and Carass, Aaron and Prince, Jerry L and Du, Yong},
-    journal={arXiv preprint arXiv:2307.15615},
-    year={2023}
-    }
-
 
