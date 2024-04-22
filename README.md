@@ -40,20 +40,24 @@ These Python implementations have been prepared for inclusion in the following a
 ## Loss Functions
 
 ### Image similarity measures
-1. Mean Squared Error (MSE)
-2. Mean Absolute Error (MAE)
-3. Pearson's correlation (PCC) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L340)
-4. Local normalized cross-correlation (LNCC) based on square window [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L22C7-L22C14)
-5. Local normalized cross-correlation (LNCC) based on Gaussian window [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L282)
-6. Modality independent neighbourhood descriptor (MIND) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L87)
-7. Mutual Information (MI) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L222)
-8. Local mutual information (LMI) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/0afcd30a7e866aefaf21837130d96a4e17faae91/registration_loss_func/image_sim.py#L282)
-10. Structural Similarity Index (SSIM) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L455)
+* Mean Squared Error (MSE)
+* Mean Absolute Error (MAE)
+*  Pearson's correlation (PCC) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L340)
+* Local normalized cross-correlation (LNCC) based on square window [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L22C7-L22C14)
+* Local normalized cross-correlation (LNCC) based on Gaussian window [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L282)
+* Modality independent neighbourhood descriptor (MIND) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L87)
+* Mutual Information (MI) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L222)
+* Local mutual information (LMI) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/0afcd30a7e866aefaf21837130d96a4e17faae91/registration_loss_func/image_sim.py#L282)
+* Structural Similarity Index (SSIM) [Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L455)
 
 ### Deformation regularization
-1. Diffusion regularization
-2. Total-variation regularization
-3. Bending energy
+* Diffusion regularization
+* Total-variation regularization
+* Bending energy
+* ICON
+    * "ICON: Learning Regular Maps Through Inverse Consistency", ICCV, 2021 (Greer *et al.*). [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Greer_ICON_Learning_Regular_Maps_Through_Inverse_Consistency_ICCV_2021_paper.pdf)[GitHub](https://github.com/uncbiag/ICON)
+* GradICON
+    * "GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency", CVPR, 2022 (Tian *et al.*). [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tian_GradICON_Approximate_Diffeomorphisms_via_Gradient_Inverse_Consistency_CVPR_2023_paper.pdf)[GitHub](https://github.com/uncbiag/ICON)
 
 ## Network Architectures
 
