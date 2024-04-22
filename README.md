@@ -25,6 +25,7 @@ This official repository contains Python implementations of various image simila
 - [Applications of image registration](#applications-of-image-registration)
     - [Atlas construction](#atlas-construction)
     - [Multi-atlas segmentation](#multi-atlas-segmentation)
+- [Trends in image registration-related research based on PubMed paper counts](#trends-in-image-registration-related-research-based-on-pubmed-paper-counts)
 
 ## Citation
 These Python implementations have been prepared for inclusion in the following article:
@@ -188,3 +189,11 @@ These Python implementations have been prepared for inclusion in the following a
 ### Multi-atlas segmentation
 * "Votenet: A deep learning label fusion method for multi-atlas segmentation", MICCAI, 2019 (Ding *et al.*). [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_23)][[GitHub](https://github.com/uncbiag/VoteNet-Family)]
 * "Votenet+: An improved deep learning label fusion method for multi-atlas segmentation", ISBI, 2020 (Ding *et al.*). [[Paper](https://ieeexplore.ieee.org/abstract/document/9434031/)][[GitHub](https://github.com/uncbiag/VoteNet-Family)]
+
+## Trends in image registration-related research based on PubMed paper counts
+* Learning-based image registration research:
+    * Search query: ```("image registration"[Title/Abstract] OR "image alignment"[Title/Abstract]) AND ("Neural Networks"[Title/Abstract] OR "Neural Network"[Title/Abstract] OR "DNN"[Title/Abstract] OR "CNN"[Title/Abstract] OR "ConvNet"[Title/Abstract] OR "Deep Learning"[Title/Abstract] OR "Transformer"[Title/Abstract])```
+    * [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/?term=%28%22image+registration%22%5BTitle%2FAbstract%5D+OR+%22image+alignment%22%5BTitle%2FAbstract%5D%29+AND+%28%22Neural+Networks%22%5BTitle%2FAbstract%5D+OR+%22Neural+Network%22%5BTitle%2FAbstract%5D+OR+%22DNN%22%5BTitle%2FAbstract%5D+OR+%22CNN%22%5BTitle%2FAbstract%5D+OR+%22ConvNet%22%5BTitle%2FAbstract%5D+OR+%22Deep+Learning%22%5BTitle%2FAbstract%5D+OR+%22Transformer%22%5BTitle%2FAbstract%5D%29%0D%0A&sort=)
+* Unsupervised learning-based image registration research:
+    * Search query: ```("Unsupervised"[Title/Abstract] OR "end to end"[Title/Abstract]) AND ("Image Registration"[Title/Abstract] OR "Image Alignment"[Title/Abstract]) AND ("Neural Networks"[Title/Abstract] OR "Neural Network"[Title/Abstract] OR "DNN"[Title/Abstract] OR "CNN"[Title/Abstract] OR "ConvNet"[Title/Abstract] OR "Deep Learning"[Title/Abstract] OR "Transformer"[Title/Abstract])```
+    * [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/?term=%28%22Unsupervised%22%5BTitle%2FAbstract%5D+OR+%22end+to+end%22%5BTitle%2FAbstract%5D%29+AND+%28%22Image+Registration%22%5BTitle%2FAbstract%5D+OR+%22Image+Alignment%22%5BTitle%2FAbstract%5D%29+AND+%28%22Neural+Networks%22%5BTitle%2FAbstract%5D+OR+%22Neural+Network%22%5BTitle%2FAbstract%5D+OR+%22DNN%22%5BTitle%2FAbstract%5D+OR+%22CNN%22%5BTitle%2FAbstract%5D+OR+%22ConvNet%22%5BTitle%2FAbstract%5D+OR+%22Deep+Learning%22%5BTitle%2FAbstract%5D+OR+%22Transformer%22%5BTitle%2FAbstract%5D%29%0D%0A&sort=)
