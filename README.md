@@ -32,7 +32,7 @@ This official repository contains a comprehensive list of papers on learning-bas
 - [Trends in image registration-related research based on PubMed paper counts](#trends-in-image-registration-related-research-based-on-pubmed-paper-counts)
 
 ## Citation
-These Python implementations have been prepared for inclusion in the following article:
+These Python implementations and the list of papers have been prepared for inclusion in the following article:
 
     @article{chen2023survey,
     title={A survey on deep learning in medical image registration: New technologies, uncertainty, evaluation metrics, and beyond},
