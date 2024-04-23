@@ -27,8 +27,8 @@ This official repository contains a comprehensive list of papers on learning-bas
     - [Multi-atlas segmentation](#multi-atlas-segmentation)
     - [Uncertainty](#uncertainty)
     - [Motion estimation](#motion-estimation)
-    - [2D-3D registration](#2D_to_3D_registration)
-    - [Towards Zero-shot Registration (Fundation Models)](#towards_zero-shot_registration_or_fundation_models)
+    - [2D-3D registration](#2D-3D-registration)
+    - [Towards Zero-shot Registration (Fundation Models)](#towards-zero-shot-registration-(fundation-models))
 - [Trends in image registration-related research based on PubMed paper counts](#trends-in-image-registration-related-research-based-on-pubmed-paper-counts)
 
 ## Citation
@@ -225,7 +225,7 @@ These Python implementations have been prepared for inclusion in the following a
 * "A One-shot Lung 4D-CT Image Registration Method with Temporal-spatial Features", BioCAS, 2022 (Ji *et al.*). [[Paper]()][[GitHub]()]
 * "ORRN: An ODE-based Recursive Registration Network for Deformable Respiratory Motion Estimation With Lung 4DCT Images", IEEE TBME, 2023 (Liang *et al.*). [[Paper]()][[GitHub]()]
 
-### 2D to 3D registration
+### 2D-3D registration
 * "The impact of machine learning on 2D/3D registration for image-guided interventions: A systematic review and perspective", FRAI, 2021 (Unberath *et al.*). [[Paper]()][[GitHub]()]
 * "Extended Capture Range of Rigid 2D/3D Registration by Estimating Riemannian Pose Gradients", MLMI, 2020 (Gu *et al.*). [[Paper]()][[GitHub]()]
 * "Multiview 2D/3D rigid registration via a point-of-interest network for tracking and triangulation", CVPR, 2019 (Liao *et al.*). [[Paper]()][[GitHub]()]
@@ -245,7 +245,7 @@ These Python implementations have been prepared for inclusion in the following a
 * "Learning Expected Appearances for Intraoperative Registration during Neurosurgery", MICCAI, 2023 (Haouchine *et al.*). [[Paper]()][[GitHub]()]
 * "Non-Rigid 2D-3D Registration Using Convolutional Autoencoders", ISBI, 2020 (Li *et al.*). [[Paper]()][[GitHub]()]
 
-## Towards Zero-shot Registration or Fundation Models
+## Towards Zero-shot Registration (Fundation Models)
 * "SynthMorph: learning contrast-invariant registration without acquired images", IEEE TMI, 2021 (Hoffmann *et al.*). [[Paper]()][[GitHub]()]
 * "Unsupervised 3D registration through optimization-guided cyclical self-training", MICCAI, 2023 (Bigalke *et al.*). [[Paper]()][[GitHub]()]
 * "uniGradICON: A Foundation Model for Medical Image Registration", ArXiv, 2024 (Tian *et al.*). [[Paper]()][[GitHub]()]
