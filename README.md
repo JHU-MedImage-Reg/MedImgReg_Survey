@@ -25,6 +25,10 @@ This official repository contains a comprehensive list of papers on learning-bas
 - [Applications of image registration](#applications-of-image-registration)
     - [Atlas construction](#atlas-construction)
     - [Multi-atlas segmentation](#multi-atlas-segmentation)
+    - [Uncertainty](#uncertainty)
+    - [Motion estimation](#motion-estimation)
+    - [2D-3D registration](#2D-3D_registration)
+    - [Towards Zero-shot Registration (Fundation Models)](#towards_zero-shot_registration_(fundation_models))
 - [Trends in image registration-related research based on PubMed paper counts](#trends-in-image-registration-related-research-based-on-pubmed-paper-counts)
 
 ## Citation
@@ -187,11 +191,64 @@ These Python implementations have been prepared for inclusion in the following a
 * "ImplicitAtlas: learning deformable shape templates in medical imaging", CVPR, 2022 (Yang *et al.*). [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_ImplicitAtlas_Learning_Deformable_Shape_Templates_in_Medical_Imaging_CVPR_2022_paper.pdf)]
 * "GroupRegNet: a groupwise one-shot deep learning-based 4D image registration method", PMB, 2021 (Zhang *et al.*). [[Paper](https://iopscience.iop.org/article/10.1088/1361-6560/abd956)][[GitHub](https://github.com/vincentme/GroupRegNet)]
 * "Groupwise Image Registration with Atlas of Multiple Resolutions Refined at Test Phase", MICCAI, 2023 (He *et al.*). [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-47425-5_26)]
-* "Learning inverse consistent 3D groupwise registration with deforming autoencoders", SPIE:MI, 2021 (Siebert *et al.*). [[Paper]()][[GitHub]()]
+* "Learning inverse consistent 3D groupwise registration with deforming autoencoders", SPIE:MI, 2021 (Siebert *et al.*). [[Paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/115960F/Learning-inverse-consistent-3D-groupwise-registration-with-deforming-autoencoders/10.1117/12.2581948.short#_=_)]
+* "Geo-SIC: Learning Deformable Geometric Shapes in Deep Image Classifiers", NeurIPS, 2022 (Wang and Zhang). [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/b328c5bd9ff8e3a5e1be74baf4a7a456-Paper-Conference.pdf)][[GitHub](https://github.com/jw4hv/Geo-SIC)]
 
 ### Multi-atlas segmentation
 * "Votenet: A deep learning label fusion method for multi-atlas segmentation", MICCAI, 2019 (Ding *et al.*). [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_23)][[GitHub](https://github.com/uncbiag/VoteNet-Family)]
 * "Votenet+: An improved deep learning label fusion method for multi-atlas segmentation", ISBI, 2020 (Ding *et al.*). [[Paper](https://ieeexplore.ieee.org/abstract/document/9434031/)][[GitHub](https://github.com/uncbiag/VoteNet-Family)]
+* "Cross-Modality Multi-Atlas Segmentation via Deep Registration and Label Fusion", IEEE JBHI, 2022 (Ding *et al.*). [[Paper]()][[GitHub]()]
+* "Multi-atlas segmentation and spatial alignment of the human embryo in first trimester 3D ultrasound", MELBA, 2022 (Bastiaansen *et al.*). [[Paper]()][[GitHub]()]
+* "Atlas-ISTN: joint segmentation, registration and atlas construction with image-and-spatial transformer networks", MedIA, 2022 (Sinclair *et al.*). [[Paper](https://www.sciencedirect.com/science/article/pii/S1361841522000354)][[GitHub](https://github.com/biomedia-mira/atlas-istn)]
+* "Anatomically constrained and attention-guided deep feature fusion for joint segmentation and deformable medical image registration", MedIA, 2023 (Khor *et al.*). [[Paper](https://www.sciencedirect.com/science/article/pii/S1361841523000725)]
+* "DeepAtlas: Joint semi-supervised learning of image registration and segmentation", MICCAI, 2019 (Xu and Niethammer). [[Paper]()][[GitHub]()]
+
+### Uncertainty
+* "Deformable image registration uncertainty for inter-fractional dose accumulation of lung cancer proton therapy", RO, 2020 (Nenoff *et al.*). [[Paper]()][[GitHub]()]
+
+### Motion estimation
+* "Joint learning of motion estimation and segmentation for cardiac MR image sequences", MICCAI, 2018 (Qin *et al.*). [[Paper]()][[GitHub]()]
+* "Implementation and validation of a three-dimensional cardiac motion estimation network", Radiology:AI, 2019 (Morales *et al.*). [[Paper]()][[GitHub]()]
+* "MulViMotion: Shape-aware 3D Myocardial Motion Tracking from Multi-View Cardiac MRI", IEEE TMI, 2022 (Meng *et al.*). [[Paper]()][[GitHub]()]
+* "FOAL: Fast online adaptive learning for cardiac motion estimation", CVPR, 2020 (Yu *et al.*). [[Paper]()][[GitHub]()]
+* "Generative myocardial motion tracking via latent space exploration with biomechanics-informed prior", MedIA, 2023 (Qin *et al.*). [[Paper]()][[GitHub]()]
+* "WarpPINN: Cine-MR image registration with physics-informed neural networks", MedIA, 2022 (L{\'o}pez *et al.*). [[Paper]()][[GitHub]()]
+* "DeepTag: An unsupervised deep learning method for motion tracking on cardiac tagging magnetic resonance images", CVPR, 2021 (Ye *et al.*). [[Paper]()][[GitHub]()]
+* "DRIMET: Deep registration-based 3D incompressible motion estimation in Tagged-MRI with application to the tongue", MIDL, 2024 (Bian *et al.*). [[Paper]()][[GitHub]()]
+* "Momentamorph: Unsupervised spatial-temporal registration with momenta, shooting, and correction", MICCAI, 2023 (Bian *et al.*). [[Paper]()][[GitHub]()]
+* "A semi-supervised joint network for simultaneous left ventricular motion tracking and segmentation in 4D echocardiography", MICCAI, 2020 (Ta *et al.*). [[Paper]()][[GitHub]()]
+* "Unsupervised motion tracking of left ventricle in echocardiography", SPIE:MI, 2020 (Ahn *et al.*). [[Paper]()][[GitHub]()]
+* "LungRegNet: an unsupervised deformable image registration method for 4D-CT lung", Med. Phys., 2020 (Fu *et al.*). [[Paper]()][[GitHub]()]
+* "An unsupervised image registration method employing chest computed tomography images and deep neural networks", CBM, 2023 (Ho *et al.*). [[Paper]()][[GitHub]()]
+* "One-shot learning for deformable medical image registration and periodic motion tracking", IEEE TMI, 2020 (Fechter and Baltas). [[Paper]()][[GitHub]()]
+* "CNN-based lung CT registration with multiple anatomical constraints", MedIA, 2021 (Hering *et al.*). [[Paper]()][[GitHub]()]
+* "A One-shot Lung 4D-CT Image Registration Method with Temporal-spatial Features", BioCAS, 2022 (Ji *et al.*). [[Paper]()][[GitHub]()]
+* "ORRN: An ODE-based Recursive Registration Network for Deformable Respiratory Motion Estimation With Lung 4DCT Images", IEEE TBME, 2023 (Liang *et al.*). [[Paper]()][[GitHub]()]
+
+### 2D-3D registration
+* "The impact of machine learning on 2D/3D registration for image-guided interventions: A systematic review and perspective", FRAI, 2021 (Unberath *et al.*). [[Paper]()][[GitHub]()]
+* "Extended Capture Range of Rigid 2D/3D Registration by Estimating Riemannian Pose Gradients", MLMI, 2020 (Gu *et al.*). [[Paper]()][[GitHub]()]
+* "Multiview 2D/3D rigid registration via a point-of-interest network for tracking and triangulation", CVPR, 2019 (Liao *et al.*). [[Paper]()][[GitHub]()]
+* "Generalizing spatial transformers to projective geometry with applications to 2D/3D registration", MICCAI, 2020 (Gao *et al.*). [[Paper]()][[GitHub]()]
+* "Fiducial-free 2D/3D registration of the proximal femur for robot-assisted femoroplasty", SPIE:MI, 2020 (Gao *et al.*). [[Paper]()][[GitHub]()]
+* "Self-Supervised 2D/3D Registration for X-Ray to CT Image Fusion", WACV, 2019 (Jaganathan *et al.*). [[Paper]()][[GitHub]()]
+* "A Novel Two-Stage Framework for 2D/3D Registration in Neurological Interventions", ROBIO, 2022 (Huang *et al.*). [[Paper]()][[GitHub]()]
+* "X-ray to ct rigid registration using scene coordinate regression", MICCAI, 2023 (Shrestha *et al.*). [[Paper]()][[GitHub]()]
+* "Extremely dense point correspondences using a learned feature descriptor", CVPR, 2020 (Liu *et al.*). [[Paper]()][[GitHub]()]
+* "Colonoscopy 3D Video Dataset with Paired Depth from 2D-3D Registration", MedIA, 2023 (Bobrow *et al.*). [[Paper]()][[GitHub]()]
+* "StructuRegNet: Structure-Guided Multimodal 2D-3D Registration", MICCAI, 2023 (Leroy *et al.*). [[Paper]()][[GitHub]()]
+* "A deep learning approach for 2D ultrasound and 3D CT/MR image registration in liver tumor ablation", CMPB, 2021 (Wei *et al.*). [[Paper]()][[GitHub]()]
+* "Multimodal registration of ultrasound and MR images using weighted self-similarity structure vector", CBM, 2023 (Wang *et al.*). [[Paper]()][[GitHub]()]
+* "Ultrasound Frame-to-Volume Registration via Deep Learning for Interventional Guidance", IEEE TUFFC, 2022 (Guo *et al.*). [[Paper]()][[GitHub]()]
+* "A patient-specific self-supervised model for automatic X-Ray/CT registration", MICCAI, 2023 (Zhang *et al.*). [[Paper]()][[GitHub]()]
+* "X-ray to DRR images translation for efficient multiple objects similarity measures in deformable model 3D/2D registration", IEEE TMI, 2022 (Aubert *et al.*). [[Paper]()][[GitHub]()]
+* "Learning Expected Appearances for Intraoperative Registration during Neurosurgery", MICCAI, 2023 (Haouchine *et al.*). [[Paper]()][[GitHub]()]
+* "Non-Rigid 2D-3D Registration Using Convolutional Autoencoders", ISBI, 2020 (Li *et al.*). [[Paper]()][[GitHub]()]
+
+## Towards Zero-shot Registration (Fundation Models)
+* "SynthMorph: learning contrast-invariant registration without acquired images", IEEE TMI, 2021 (Hoffmann *et al.*). [[Paper]()][[GitHub]()]
+* "Unsupervised 3D registration through optimization-guided cyclical self-training", MICCAI, 2023 (Bigalke *et al.*). [[Paper]()][[GitHub]()]
+* "uniGradICON: A Foundation Model for Medical Image Registration", ArXiv, 2024 (Tian *et al.*). [[Paper]()][[GitHub]()]
 
 ## Trends in image registration-related research based on PubMed paper counts
 * Learning-based image registration research:
