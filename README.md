@@ -28,7 +28,7 @@ This official repository contains a comprehensive list of papers on learning-bas
     - [Uncertainty](#uncertainty)
     - [Motion estimation](#motion-estimation)
     - [2D-3D registration](#2D-3D-registration)
-    - [Towards Zero-shot Registration (Fundation Models)](#towards-zero-shot-registration-or-fundation-models)
+- [Towards Zero-shot Registration (Fundation Models)](#towards-zero-shot-registration-or-fundation-models)
 - [Trends in image registration-related research based on PubMed paper counts](#trends-in-image-registration-related-research-based-on-pubmed-paper-counts)
 
 ## Citation
