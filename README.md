@@ -249,8 +249,9 @@ These Python implementations and the list of papers have been prepared for inclu
 ## Towards Zero-shot Registration or Fundation Models
 * "SynthMorph: learning contrast-invariant registration without acquired images", IEEE TMI, 2021 (Hoffmann *et al.*). [[Paper](https://ieeexplore.ieee.org/abstract/document/9552865)][[GitHub](https://martinos.org/malte/synthmorph/)]
 * "Unsupervised 3D registration through optimization-guided cyclical self-training", MICCAI, 2023 (Bigalke *et al.*). [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_64)][[GitHub](https://github.com/multimodallearning/reg-cyclical-self-train)]
-* "uniGradICON: A Foundation Model for Medical Image Registration", ArXiv, 2024 (Tian *et al.*). [[Paper](https://arxiv.org/abs/2403.05780)][[GitHub](https://github.com/uncbiag/uniGradICON)]
+* "uniGradICON: A Foundation Model for Medical Image Registration", MICCAI, 2024 (Demir *et al.*). [[Paper](https://arxiv.org/abs/2403.05780)][[GitHub](https://github.com/uncbiag/uniGradICON)]
 * "BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration", ArXiv, 2024 (Wang *et al.*). [[Paper](https://arxiv.org/abs/2405.14019v1)][[GitHub](https://github.com/alanqrwang/brainmorph)]
+* ***New*** "multiGradICON: A Foundation Model for Multimodal Medical Image Registration", ArXiv, 2024 (Tian *et al.*). [[Paper](https://arxiv.org/abs/2408.00221)][[GitHub](https://github.com/uncbiag/uniGradICON)]
 
 ## Trends in image registration-related research based on PubMed paper counts
 * Learning-based image registration research:
