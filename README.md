@@ -63,6 +63,8 @@ These Python implementations and the list of papers have been prepared for inclu
     * "ICON: Learning Regular Maps Through Inverse Consistency", ICCV, 2021 (Greer *et al.*). [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Greer_ICON_Learning_Regular_Maps_Through_Inverse_Consistency_ICCV_2021_paper.pdf)][[GitHub](https://github.com/uncbiag/ICON)]
 * GradICON
     * "GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency", CVPR, 2022 (Tian *et al.*). [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tian_GradICON_Approximate_Diffeomorphisms_via_Gradient_Inverse_Consistency_CVPR_2023_paper.pdf)][[GitHub](https://github.com/uncbiag/ICON)]
+* ***New!*** Inverse consistency by construction
+    * "Inverse consistency by construction for multistep deep registration", MICCAI, 2023 (Greer *et al.). [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_65)][[GitHub](https://github.com/uncbiag/ByConstructionICON)]
 
 ## Network Architectures
 
