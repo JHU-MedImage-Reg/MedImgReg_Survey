@@ -1,5 +1,5 @@
 '''
-Image Similarity Measures for Medical Image Registration
+Deformation Regularizers for Medical Image Registration
 
 Article:
     A Survey on Deep Learning in Medical Image Registration: New Technologies, Uncertainty, Evaluation Metrics, and Beyond
