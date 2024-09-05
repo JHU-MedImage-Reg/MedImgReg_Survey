@@ -46,7 +46,7 @@ class Grad3d(torch.nn.Module):
             grad *= self.loss_mult
         return grad
 
-  class Grad3DiTV(torch.nn.Module):
+class Grad3DiTV(torch.nn.Module):
     """
     Isotropic Total Variational Regularizer
     """
