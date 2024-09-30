@@ -153,6 +153,7 @@ These Python implementations and the list of papers have been prepared for inclu
 * "Highly accurate and memory efficient unsupervised learning-based discrete CT registration using 2.5 D displacement search", MICCAI, 2020 (Heinrich and Hansen). [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-59716-0_19)][[GitHub](https://github.com/multimodallearning/pdd2.5/)]
 * "Voxelmorph++ going beyond the cranial vault with keypoint supervision and multi-channel instance optimisation", WBIR, 2022 (Heinrich and Hansen). [[Paper](https://openreview.net/pdf?id=SrlgSXA3qAY)][[GitHub](https://github.com/mattiaspaul/VoxelMorphPlusPlus)]
 * "Fast 3D registration with accurate optimisation and little learning for Learn2Reg 2021", MIDOG, 2021 (Siebert *et al.*). [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-97281-3_25)][[GitHub](https://github.com/multimodallearning/convexAdam)]
+* $${\color{red}New!}$$ "ConvexAdam: Self-Configuring Dual-Optimisation-Based 3D Multitask Medical Image Registration", IEEE TMI, 2024 (Siebert *et al.*). [[Paper](https://ieeexplore.ieee.org/abstract/document/10681158)][[GitHub](https://github.com/multimodallearning/convexAdam)]
 
 ### Progressive and pyramid registration
 * "Unsupervised 3D end-to-end medical image registration with volume tweening network", IEEE JBHI, 2019 (Zhao *et al.*). [[Paper](https://ieeexplore.ieee.org/abstract/document/8889674/)][[GitHub](https://github.com/microsoft/Recursive-Cascaded-Networks)]
