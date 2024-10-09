@@ -3,6 +3,7 @@
 
 This official repository contains a comprehensive list of papers on learning-based image registration. Additionally, it includes Python implementations of various image similarity measures, deformation regularization techniques, and evaluation methods for medical image registration.
 
+$${\color{red}New!}$$ 10/04/2024 - Our paper has been accepted by ***Medical Image Analysis*** for publication!
 
 ## Overview
 - [Citation](#citation)
