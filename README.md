@@ -23,6 +23,7 @@ $${\color{red}New!}$$ 10/04/2024 - Our paper has been accepted by ***Medical Ima
     - [Correlation layer](#correlation-layer)
     - [Progressive and pyramid registration](#progressive-and-pyramid-registration)
 - [Registration uncertainty](#registration-uncertainty)
+- [Benchmark dataset for medical image registration](#Benchmark-dataset-for-medical-image-registration)
 - [Applications of image registration](#applications-of-image-registration)
     - [Atlas construction](#atlas-construction)
     - [Multi-atlas segmentation](#multi-atlas-segmentation)
@@ -178,6 +179,34 @@ These Python implementations and the list of papers have been prepared for inclu
 * "Transmorph: Transformer for unsupervised medical image registration", MedIA, 2022 (Chen *et al.*). [[Paper](https://www.sciencedirect.com/science/article/pii/S1361841522002432)][[GitHub](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration)]
 * "Estimating medical image registration error and confidence: A taxonomy and scoping review", MedIA, 2022 (Bierbrier *et al.*). [[Paper](https://www.sciencedirect.com/science/article/pii/S1361841522001785)]
 * "From Registration Uncertainty to Segmentation Uncertainty", ISBI, 2024 (Chen *et al.*). [[Paper](https://arxiv.org/abs/2403.05111)][[GitHub](https://github.com/junyuchen245/Registration_Uncertainty)]
+
+## Benchmark dataset for medical image registration
+| Dataset | Anatomy | Cohort Type | Modality | Source |
+|---|---|---|---|---|
+| IXI | Brain | Healthy Controls | T1w, T2w, PDw MRI | [Official Website](https://brain-development.org/ixi-dataset/) |
+| LUMIR | Brain | Healthy Controls | T1w MRI | [Learn2Reg 2024](https://learn2reg.grand-challenge.org/) |
+| LPBA40 | Brain | Healthy Controls | T1w MRI | [Official Website]([https://doi.org/10.1002/hbm.20597](https://www.loni.usc.edu/research/atlases)) |
+| Mindboggle | Brain | Healthy Controls | T1w MRI | [Official Website](https://mindboggle.info/) |
+| OASIS | Brain | Alzheimer’s disease | T1w MRI | [Official Website](https://sites.wustl.edu/oasisbrains/) |
+| BraTS-Reg | Brain | Glioma | T1w, T1ce, T2w, FLAIR MRI | [Official Website](https://www.med.upenn.edu/cbica/brats-reg-challenge/) |
+| CuRIOUS | Brain | Glioma | T1w, T2-FLAIR MRI, 3D US | [Learn2Reg 2020](https://learn2reg.grand-challenge.org/) |
+| ReMIND2Reg | Brain | Tumor resection | T1w, T2w MRI, 3D US | [Learn2Reg 2024](https://learn2reg.grand-challenge.org/) |
+| Hippocampus-MR | Brain | Non-affective psychosis | T1w MRI | [Learn2Reg 2020](https://learn2reg.grand-challenge.org/) |
+| DIR-Lab | Lung | COPD, cancer | Breath-hold and 4DCT | [Official Website](https://med.emory.edu/departments/radiation-oncology/research-laboratories/deformable-image-registration/index.html) |
+| NLST | Lung | Smokers | Spiral CT | [Official Website](view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cancerimagingarchive.net%2Fwp-content%2Fuploads%2FINFOclinical_HN_Version2_30may2018.xlsx&wdOrigin=BROWSELINK) |
+| Lung-CT | Lung | Healthy Controls | Inspiratory, expiratory CT | [Learn2Reg 2021](https://learn2reg.grand-challenge.org/) |
+| EMPIRE10 | Lung | Healthy Controls | Inspiratory, expiratory CT | [Official Website](https://empire10.grand-challenge.org/) |
+| Thorax-CBCT | Lung | Cancer Patients | CT, CBCT | [Learn2Reg 2023](https://learn2reg.grand-challenge.org/) |
+| Lung250M-4B | Lung | Mixed | CT | [Official Website](https://github.com/multimodallearning/Lung250M-4B) |
+| ACDC | Heart | Cardiac diseases | 4D cine-MRI | [Official Website](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) |
+| M&Ms | Heart | Cardiac diseases | 4D cine-MRI | [Official Website](https://www.ub.edu/mnms/) |
+| MM-WHS | Heart | Cardiac diseases | CT, MRI | [Official Website](https://zmiclab.github.io/zxh/0/mmwhs/) |
+| Abdomen-CT-CT | Abdomen | Cancer Patients | CT | [Learn2Reg 2020](https://learn2reg.grand-challenge.org/) |
+| Abdomen-MR-CT | Abdomen | Cancer Patients | CT, MR | [Learn2Reg 2021](https://learn2reg.grand-challenge.org/) |
+| ACROBAT | Breast | Breast Cancer | Pathological images | [Official Website](https://acrobat.grand-challenge.org/) |
+| ANHIR | Body-wide | Cancer tissue samples | Pathological images | [Official Website](https://anhir.grand-challenge.org/) |
+| COMULISglobe SHG-BF | Breast / Pancreas | Cancer tissue samples | Pathological images | [Learn2Reg 2024](https://learn2reg.grand-challenge.org/) |
+| COMULISglobe 3D-CLEM | Cell | Mitochondria, nuclei | Microscopy | [Learn2Reg 2024](https://learn2reg.grand-challenge.org/) |
 
 ## Applications of Image Registration
 
