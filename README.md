@@ -181,6 +181,7 @@ These Python implementations and the list of papers have been prepared for inclu
 * "From Registration Uncertainty to Segmentation Uncertainty", ISBI, 2024 (Chen *et al.*). [[Paper](https://arxiv.org/abs/2403.05111)][[GitHub](https://github.com/junyuchen245/Registration_Uncertainty)]
 
 ## Benchmark dataset for medical image registration
+$${\color{red}New!}$$
 | Dataset | Anatomy | Cohort Type | Modality | Source |
 |---|---|---|---|---|
 | IXI | Brain | Healthy Controls | T1w, T2w, PDw MRI | [Official Website](https://brain-development.org/ixi-dataset/) |
