@@ -55,6 +55,7 @@ These Python implementations and the list of papers have been prepared for inclu
 * Mutual Information (MI) [[Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L222)]
 * Local mutual information (LMI) [[Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/0afcd30a7e866aefaf21837130d96a4e17faae91/registration_loss_func/image_sim.py#L282)]
 * Structural Similarity Index (SSIM) [[Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/567da0b653e2be3ebe8909dd978ef83c247c16f7/registration_loss_func/image_sim.py#L455)]
+* Normalized Gradient Fields (NGF) [[GitHub](https://github.com/BailiangJ/learn2reg2021_task3/blob/master/normalized_gradient_field.py)]
 * $${\color{red}New!}$$ Correlation Ratio (CR) [[Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/766deb50b1c3b99d7fceca05cb3508359d59a7f9/registration_loss_func/image_sim.py#L543)][[Paper](https://arxiv.org/abs/2409.13863)]
 * $${\color{red}New!}$$ Local correlation ratio [[Code](https://github.com/JHU-MedImage-Reg/MedImgReg_Survey/blob/766deb50b1c3b99d7fceca05cb3508359d59a7f9/registration_loss_func/image_sim.py#L612)][[Paper](https://arxiv.org/abs/2409.13863)]
 
