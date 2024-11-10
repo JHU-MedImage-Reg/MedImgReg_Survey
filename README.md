@@ -3,7 +3,7 @@
 
 This official repository contains a comprehensive list of papers on learning-based image registration. Additionally, it includes Python implementations of various image similarity measures, deformation regularization techniques, and evaluation methods for medical image registration.
 
-$${\color{red}New!}$$ 10/04/2024 - Our paper has been accepted by ***Medical Image Analysis*** for publication!
+$${\color{red}New!}$$ 10/04/2024 - Our paper has been accepted by ***Medical Image Analysis*** for publication! [[Link](https://www.sciencedirect.com/science/article/pii/S1361841524003104)]
 
 ## Overview
 - [Citation](#citation)
@@ -37,10 +37,13 @@ $${\color{red}New!}$$ 10/04/2024 - Our paper has been accepted by ***Medical Ima
 These Python implementations and the list of papers have been prepared for inclusion in the following article:
 
     @article{chen2023survey,
-    title={A survey on deep learning in medical image registration: New technologies, uncertainty, evaluation metrics, and beyond},
-    author={Chen, Junyu and Liu, Yihao and Wei, Shuwen and Bian, Zhangxing and Subramanian, Shalini and Carass, Aaron and Prince, Jerry L and Du, Yong},
-    journal={arXiv preprint arXiv:2307.15615},
-    year={2023}
+    title = {A survey on deep learning in medical image registration: New technologies, uncertainty, evaluation metrics, and beyond},
+    author = {Junyu Chen and Yihao Liu and Shuwen Wei and Zhangxing Bian and Shalini Subramanian and Aaron Carass and Jerry L. Prince and Yong Du},
+    journal = {Medical Image Analysis},
+    pages = {103385},
+    year = {2024},
+    issn = {1361-8415},
+    doi = {https://doi.org/10.1016/j.media.2024.103385}
     }
 
 ## Loss Functions
