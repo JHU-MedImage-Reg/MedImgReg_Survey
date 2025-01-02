@@ -73,6 +73,8 @@ These Python implementations and the list of papers have been prepared for inclu
     * "GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency", CVPR, 2022 (Tian *et al.*). [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tian_GradICON_Approximate_Diffeomorphisms_via_Gradient_Inverse_Consistency_CVPR_2023_paper.pdf)][[GitHub](https://github.com/uncbiag/ICON)]
 * Inverse consistency by construction
     * "Inverse consistency by construction for multistep deep registration", MICCAI, 2023 (Greer *et al.*). [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_65)][[GitHub](https://github.com/uncbiag/ByConstructionICON)]
+* $${\color{red}New!}$$ Spatially varying regularization
+    * "Unsupervised learning of spatially varying regularization for diffeomorphic image registration", arXiv, 2023 (Chen *et al.*). [[Paper](https://arxiv.org/abs/2412.17982)][[GitHub](https://github.com/junyuchen245/Spatially-Varying-Regularization-ImgReg)]
 
 ## Network Architectures
 
