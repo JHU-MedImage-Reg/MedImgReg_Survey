@@ -74,7 +74,7 @@ These Python implementations and the list of papers have been prepared for inclu
 * Inverse consistency by construction
     * "Inverse consistency by construction for multistep deep registration", MICCAI, 2023 (Greer *et al.*). [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_65)][[GitHub](https://github.com/uncbiag/ByConstructionICON)]
 * $${\color{red}New!}$$ Spatially varying regularization
-    * "Unsupervised learning of spatially varying regularization for diffeomorphic image registration", arXiv, 2023 (Chen *et al.*). [[Paper](https://arxiv.org/abs/2412.17982)][[GitHub](https://github.com/junyuchen245/Spatially-Varying-Regularization-ImgReg)]
+    * "Unsupervised learning of spatially varying regularization for diffeomorphic image registration", arXiv, 2024 (Chen *et al.*). [[Paper](https://arxiv.org/abs/2412.17982)][[GitHub](https://github.com/junyuchen245/Spatially-Varying-Regularization-ImgReg)]
 
 ## Network Architectures
 
