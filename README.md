@@ -191,6 +191,7 @@ $${\color{red}New!}$$
 | Dataset | Anatomy | Cohort Type | Modality | Source |
 |---|---|---|---|---|
 | IXI | Brain | Healthy Controls | T1w, T2w, PDw MRI | [Official Website](https://brain-development.org/ixi-dataset/) |
+| LUMIR25 | Brain | Healthy Controls | T1w MRI | [Learn2Reg 2025](https://learn2reg.grand-challenge.org/) |
 | LUMIR | Brain | Healthy Controls | T1w MRI | [Learn2Reg 2024](https://learn2reg.grand-challenge.org/) |
 | LPBA40 | Brain | Healthy Controls | T1w MRI | [Official Website](https://www.loni.usc.edu/research/atlases) |
 | Mindboggle | Brain | Healthy Controls | T1w MRI | [Official Website](https://mindboggle.info/) |
